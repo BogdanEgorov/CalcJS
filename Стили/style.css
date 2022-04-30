@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+#calculate {
+	width: 367px;
+	height: 510px;
+	margin: 50px auto;
+	background: #ffff00;
+	border: 2px solid #bf00ff;
+	border-radius: 5px;
+}
+
+.bs button{
+	width: 87px;
+	height: 49px;
+	font-size: 20px;
+	border: none;
+	background: #bf00ff;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.bs button:hover {
+	background: #8000ff;
+	transition: ease 600ms;
+}
+.bs {
+	margin: 3px auto;
+}
+
+#main_buttons {
+	margin: auto 3px;
+}
+
+#not_main_buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+#not_main_buttons button {
+	padding: 3px auto;
+	width: 64px;
+	height: 28px;
+	background: #ffff00;
+	border: none;
+	font-size: 14px;
+}
+#not_main_buttons button:hover {
+	background: #8000ff;
+	transition: ease 500ms;
+	color: #ffffff;
+}
+
+#header {
+	height: 160px;
+	padding-top: 7px;
+}
+
+#main-input {
+	height: 80px;
+	width: 352px;
+	background: #ffff00;
+	border: none;
+	text-align: end;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#next_step {
+	margin-top: 15px;
+	text-align: end;
+	width: 352px;
+	height: 17px;
+}
+
+#mode {
+	font-size: 25px;
+	margin-left: 15px;
+}
+
+#project_name {
+	padding-left: 15px;
+	height: 20px;
+}
